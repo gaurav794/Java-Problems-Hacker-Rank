@@ -7,6 +7,7 @@ echo
 #Read File name and content to generate file
 createFileWithContent()
 {
+  echo
   read -p 'ENTER FILE NAME: ' fileName
   vim $fileName.java
 }
