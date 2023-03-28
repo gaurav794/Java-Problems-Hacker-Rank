@@ -23,13 +23,14 @@ git status
 echo
 read -p 'ENTER COMMIT MESSAGE: ' commitMsg
 echo
-git commit -m $commitMsg
+git commit -m "$commitMsg"
 echo
 git status
 echo
 git push origin main
 echo
 echo "====================FILES PUSHED SUCCESSFULLY===================="
+echo
 }
 
 
@@ -42,7 +43,7 @@ do
  createFileWithContent
  #Git commands to push the local changes to cloud on github
  gitCommandsToPush
- read -p 'ENTER "1" TO CONTINUE OR "0" TO EXIT: ' $flag
+ read -p 'ENTER "1" TO CONTINUE OR "0" TO EXIT: ' flag
 done
 
 
