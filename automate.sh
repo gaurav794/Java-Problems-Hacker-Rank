@@ -14,17 +14,20 @@ createFileWithContent()
 gitCommandsToPush()
 {
 echo
+echo "====================GIT STATUS===================="
 git status
 echo
 git add .
 echo "====================FILES ADDED SUCCESSFULLY===================="
 echo
+echo "====================GIT STATUS===================="
 git status
 echo
 read -p 'ENTER COMMIT MESSAGE: ' commitMsg
 echo
 git commit -m "$commitMsg"
 echo
+echo "====================GIT STATUS===================="
 git status
 echo
 echo "====================PUSH COMMAND IN PROCESSS===================="
