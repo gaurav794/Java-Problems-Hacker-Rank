@@ -17,9 +17,10 @@ gitCommandsToPush()
 echo
 git status
 echo
-echo "Adding files locally"
-echo
 git add .
+echo "FILES ADDED SUCCESSFULLY"
+echo
+git status
 echo
 read -p 'Enter Commit Message: ' commitMsg
 echo
@@ -27,7 +28,6 @@ git commit -m $commitMsg
 echo
 git status
 echo
-
 }
 
 #Functions

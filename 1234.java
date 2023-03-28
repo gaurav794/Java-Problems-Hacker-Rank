@@ -1,1 +1,0 @@
-echo "Adding files locally"
