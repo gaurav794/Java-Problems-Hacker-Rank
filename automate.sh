@@ -40,7 +40,7 @@ echo
 
 
 flag=1
-#Loop to iterate until user enters "q" else continue to execute
+#Loop to iterate until user enters "0" else continue to execute
 while [ $flag -ne 0 ]
 do
  #Functions
