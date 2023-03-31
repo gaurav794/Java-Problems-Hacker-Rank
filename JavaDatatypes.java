@@ -85,6 +85,7 @@ public class Solution {
             counter = 0;//reset counter
                  
         }
-        
+	//stop reading input
+	scanner.close();
     }
 }
